@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import LiquidLoader from './LiquidLoader';
 
-const App = () => {
+function App() {
   return (
-    <div className='text-red-800 text-center font-bold text-2xl p-4'>App</div>
-  )
+    <div className="App">
+      <LiquidLoader />
+    </div>
+  );
 }
 
-export default App 
+export default App;
